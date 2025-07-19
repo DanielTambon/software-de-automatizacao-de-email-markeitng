@@ -175,7 +175,7 @@ const CampaignEditor = () => {
               </div>
 
               <div className="text-sm text-gray-600 bg-blue-50 p-3 rounded">
-                <p><strong>Dica:</strong> Use campos dinâmicos como {{nome}} para personalizar seus emails.</p>
+                <p><strong>Dica:</strong> Use campos dinâmicos como {'{nome}'} para personalizar seus emails.</p>
               </div>
             </CardContent>
           </Card>
