@@ -1,73 +1,41 @@
-# Welcome to your Lovable project
+# Programa de Disparo de Email Marketing
 
-## Project info
+## Descrição
 
-**URL**: https://lovable.dev/projects/372d601b-c799-4bb2-a64b-f49c1aee0bab
+Este projeto é uma aplicação web para envio de campanhas de email marketing personalizadas, com funcionalidades para gerenciar listas de emails, criar mensagens customizadas com campos dinâmicos, agendar envios, enviar em massa e gerar relatórios detalhados sobre as campanhas.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Tecnologias utilizadas
 
-**Use Lovable**
+- TypeScript  
+- React  
+- Tailwind CSS  
+- Vite  
+- shadcn-ui (biblioteca de componentes UI)  
+- React Router DOM (navegação entre páginas)  
+- Lucide React (ícones)  
+- Radix UI (base dos componentes shadcn)  
+- class-variance-authority (variantes de componentes)  
+- clsx / tailwind-merge (gestão de classes CSS)  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/372d601b-c799-4bb2-a64b-f49c1aee0bab) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Como rodar o projeto
 
-**Use your preferred IDE**
+### 1. Rodando via repositório público no GitHub
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Clone o repositório e rode localmente seguindo estes passos:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+# Clone o repositório
+git clone https://github.com/DanielTambon/software-de-automatizacao-de-email-markeitng.git
 
-Follow these steps:
+# Entre na pasta do projeto
+cd software-de-automatizacao-de-email-markeitng
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Instale as dependências
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Inicie o servidor de desenvolvimento
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/372d601b-c799-4bb2-a64b-f49c1aee0bab) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
